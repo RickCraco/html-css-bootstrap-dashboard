@@ -1,6 +1,16 @@
+*{
+    list-style: none;
+}
+
+.my-ul{
+    padding-left: 0;
+    margin: auto;
+}
+
 .wrapper{
     width: 100%;
     height: 100vh;
+    background-color: #f8f9fa;
 }
 
 header{
@@ -16,6 +26,10 @@ main{
 .sidebar{
     width: 150px;
     height: 100%;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0f263d;
 }
 
 .main-content{
