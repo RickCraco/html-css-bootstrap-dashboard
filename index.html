@@ -3,284 +3,317 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/master.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Document</title>
 
 </head>
 
 <body>
 
-    <div class="wrapper">
+  <div class="wrapper">
 
-        <header>
+    <header>
 
-            <nav class="pt-3">
+      <nav class="pt-3">
 
-                <div class="container-fluid">
+        <div class="container-fluid">
 
-                    <div class="row justify-content-between align-items-center">
+          <div class="row justify-content-between align-items-center">
 
-                        <div class="col-1">
-                            <img src="img/logo.svg" alt="logo">
-                        </div>
+            <div class="col-1">
+              <img src="img/logo.svg" alt="logo">
+            </div>
 
-                        <div class="col-10">
-                            <input type="search" class="form-control" aria-label="search" placeholder="Prova a cercare: Lezioni di Laravel">
-                        </div>
+            <div class="col-10">
+              <input type="search" class="form-control" aria-label="search"
+                placeholder="Prova a cercare: Lezioni di Laravel">
+            </div>
 
-                        <div class="col-1">
+            <div class="col-1">
 
-                            <ul class="my-ul d-flex justify-content-around">
-                                <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul" style="color: #000000;"></i></li>
-                                <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question" style="color: #000000;"></i></li>
-                                <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i></li>
-                                <li><i class="fa-solid fa-bell" style="color: #f7da45;"></i></li>
-                            </ul>
+              <ul class="my-ul d-flex justify-content-around">
+                <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul" style="color: #000000;"></i></li>
+                <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question" style="color: #000000;"></i></li>
+                <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i></li>
+                <li><i class="fa-solid fa-bell" style="color: #f7da45;"></i></li>
+              </ul>
 
-                        </div>
+            </div>
 
-                    </div>
+          </div>
 
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <div class="sidebar container-fluid d-flex flex-column justify-content-between py-3">
+
+        <div>
+
+          <ul class="my-ul text-light">
+            <li class="py-1"><i class="fa-solid fa-house fa-fw" style="color: #ffffff;"></i><span class="ps-2">Home</span>
+            </li>
+            <li class="py-1"><i class="fa-solid fa-chart-simple fa-fw" style="color: #ffffff;"></i><span
+                class="ps-2">Stats</span></li>
+            <li class="py-1"><i class="fa-solid fa-signal fa-fw" style="color: #ffffff;"></i><span class="ps-2">Signals</span>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="text-light">
+
+          <span><i class="fa-solid fa-gear" style="color: #ffffff;"></i></span>
+          <span>Admin</span>
+
+        </div>
+
+      </div>
+
+      <div class="main-content">
+
+        <section class="main-nav bg-primary">
+
+          <div class="container-fluid">
+            <div class="row justify-content-between">
+              <div class="col">1</div>
+              <div class="col">2</div>
+              <div class="col">3</div>
+            </div>
+          </div>
+
+        </section>
+
+        <div class="container-fluid py-4">
+
+          <div class="dashboard row">
+
+            <div class="left-side col-12 col-lg-8">
+
+              <div class="card">
+
+                <div class="card-header">
+                  Featured
                 </div>
 
-            </nav>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <td scope="col">Nome</td>
+                      <td scope="col">Data Inizio</td>
+                      <td scope="col">ROI</td>
+                      <td scope="col">Stato</td>
+                      <td scope="col">Azioni</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                          class="my-img"><span class="ps-1">Classe 75</span></td>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
 
-        </header>
+              </div>
 
-        <main>
+              <div class="card my-4">
 
-            <div class="sidebar container-fluid d-flex flex-column justify-content-between py-3">
+                <div class="card-header">
+                  F.A.Q.
+                </div>
 
-                <div>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                    <ul class="my-ul text-light">
-                        <li class="py-1"><i class="fa-solid fa-house" style="color: #ffffff;"></i><span class="ps-2">Home</span></li>
-                        <li class="py-1"><i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i><span class="ps-2">Stats</span></li>
-                        <li class="py-1"><i class="fa-solid fa-signal" style="color: #ffffff;"></i><span class="ps-2">Signals</span></li>
+              </div>
+
+            </div>
+
+            <div class="right-side col-12 col-lg-4">
+
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+
+                <div class="p-3">
+                  <div class="card">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
                     </ul>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="card my-4">
+
+                <div class="p-3">
+
+                  <div class="card">
+                    <img src="img/stats.jpeg" class="card-img-top" alt="stats">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
 
                 </div>
 
-                <div class="text-light">
-
-                    <span><i class="fa-solid fa-gear" style="color: #ffffff;"></i></span>
-                    <span>Admin</span>
-
-                </div>
+              </div>
 
             </div>
 
-            <div class="main-content">
+          </div>
 
-                <section class="main-nav bg-primary">
+        </div>
 
-                    <div class="container-fluid">
-                        <div class="row justify-content-between">
-                            <div class="col">1</div>
-                            <div class="col">2</div>
-                            <div class="col">3</div>
-                        </div>
-                    </div>
+      </div>
 
-                </section>
+    </main>
 
-                <div class="container-fluid py-4">
-    
-                    <div class="dashboard row">
-    
-                        <div class="left-side col-12 col-lg-8">
+  </div>
 
-                            <div class="card">
-
-                                <div class="card-header">
-                                  Featured
-                                </div>
-
-                                <table class="table table-hover">
-                                    <thead>
-                                      <tr>
-                                        <td scope="col">Nome</td>
-                                        <td scope="col">Data Inizio</td>
-                                        <td scope="col">ROI</td>
-                                        <td scope="col">Stato</td>
-                                        <td scope="col">Azioni</td>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                      <tr>
-                                        <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class" class="my-img"><span class="ps-1">Classe 75</span></td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td></td>
-                                      </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div class="card my-4">
-
-                                <div class="card-header">
-                                  F.A.Q.
-                                </div>
-
-                                <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          Accordion Item #1
-                                        </button>
-                                      </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          Accordion Item #2
-                                        </button>
-                                      </h2>
-                                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Accordion Item #3
-                                        </button>
-                                      </h2>
-                                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-    
-                        <div class="right-side col-12 col-lg-4">
-
-                            <div class="card">
-                                <div class="card-header">
-                                  Featured
-                                </div>
-
-                                <div class="p-3">
-                                    <div class="card">
-                                        <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">An item</li>
-                                          <li class="list-group-item">A second item</li>
-                                          <li class="list-group-item">A third item</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="card my-4">
-
-                                <div class="p-3">
-
-                                    <div class="card">
-                                        <img src="img/stats.jpeg" class="card-img-top" alt="stats">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                        <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">An item</li>
-                                          <li class="list-group-item">A second item</li>
-                                          <li class="list-group-item">A third item</li>
-                                        </ul>
-                                        <div class="card-body">
-                                          <a href="#" class="card-link">Card link</a>
-                                          <a href="#" class="card-link">Another link</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-    
-                    </div>
-
-                </div>
-
-            </div>
-
-        </main>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
