@@ -59,9 +59,12 @@ main{
     line-height: 1em;
 }
 
-.my-fontsize{
-    font-size: 20px;
-    font-weight: 300;
+.my-bg{
+    background-color: #4d525b67;
+}
+
+.myfont{
+    font-size: 13px;
 }
 
 /* media query */
