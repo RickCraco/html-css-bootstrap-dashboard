@@ -19,7 +19,7 @@
 
   <div class="wrapper">
 
-    <header>
+    <header class="bg-body-tertiary">
 
       <nav class="pt-3">
 
@@ -27,22 +27,23 @@
 
           <div class="row justify-content-between align-items-center">
 
-            <div class="col-xl-1 col-lg-3 col-md-2 col-sm-3 col-3">
-              <img src="img/logo.svg" alt="logo">
+            <div class="col-auto">
+              <img src="img/logo.svg" alt="logo" class="d-none d-lg-block">
+              <img src="img/mobile-logo.png" alt="mobile-logo" class="my-logo d-lg-none d-md-block">
             </div>
 
-            <div class="col-xl-10 col-lg-7 col-md-9 col-sm-8 col-8">
+            <div class="col">
               <input type="search" class="form-control" aria-label="search"
                 placeholder="Prova a cercare: Lezioni di Laravel">
             </div>
 
-            <div class="col-xl-1 col-lg-2 col-md-1 col-sm-1 col-1">
+            <div class="col-auto">
 
               <ul class="my-ul d-flex justify-content-around">
-                <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul" style="color: #000000;"></i></li>
-                <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question" style="color: #000000;"></i></li>
-                <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i></li>
-                <li><i class="fa-solid fa-bell" style="color: #f7da45;"></i></li>
+                <li class="d-none d-lg-block px-2"><i class="fa-solid fa-list-ul" style="color: #000000;"></i></li>
+                <li class="d-none d-lg-block px-2"><i class="fa-solid fa-circle-question" style="color: #000000;"></i></li>
+                <li class="d-none d-lg-block px-2"><i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i></li>
+                <li class="px-2"><i class="fa-solid fa-bell" style="color: #f7da45;"></i></li>
               </ul>
 
             </div>
@@ -62,11 +63,11 @@
         <div>
 
           <ul class="my-ul text-light">
-            <li class="py-1"><i class="fa-solid fa-house fa-fw" style="color: #ffffff;"></i><span class="ps-2">Home</span>
+            <li class="py-1"><i class="fa-solid fa-house fa-fw" style="color: #ffffff;"></i><span class="ps-2 d-none d-lg-inline">Home</span>
             </li>
             <li class="py-1"><i class="fa-solid fa-chart-simple fa-fw" style="color: #ffffff;"></i><span
-                class="ps-2">Stats</span></li>
-            <li class="py-1"><i class="fa-solid fa-signal fa-fw" style="color: #ffffff;"></i><span class="ps-2">Signals</span>
+                class="ps-2 d-none d-lg-inline">Stats</span></li>
+            <li class="py-1"><i class="fa-solid fa-signal fa-fw" style="color: #ffffff;"></i><span class="ps-2 d-none d-lg-inline">Signals</span>
             </li>
           </ul>
 
@@ -75,7 +76,7 @@
         <div class="text-light">
 
           <span><i class="fa-solid fa-gear fa-fw" style="color: #ffffff;"></i></span>
-          <span class="ps-2">Admin</span>
+          <span class="ps-2 d-none d-lg-inline">Admin</span>
 
         </div>
 
@@ -86,11 +87,19 @@
         <section class="main-nav bg-primary">
 
           <div class="container-fluid">
+
             <div class="row justify-content-between">
-              <div class="col">1</div>
-              <div class="col">2</div>
-              <div class="col">3</div>
+
+              <div class="col-12 py-3">
+                <span class="pe-2 text-light">Nuovo Studente</span>
+                <button class="btn btn-outline-light my-button my-fontsize">&plus;</button>
+              </div>
+
+              <div class="col-12">2</div>
+              <div class="col-12">3</div>
+
             </div>
+
           </div>
 
         </section>
@@ -119,7 +128,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -127,7 +136,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -135,7 +144,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -143,7 +152,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -151,7 +160,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -159,7 +168,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -167,7 +176,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
@@ -175,7 +184,7 @@
                       <td></td>
                     </tr>
                     <tr>
-                      <td class="d-flex align-items-center"><img src="img/class-avatar.jpg" alt="class"
+                      <td><img src="img/class-avatar.jpg" alt="class"
                           class="my-img"><span class="ps-1">Classe 75</span></td>
                       <td>Mark</td>
                       <td>Otto</td>
