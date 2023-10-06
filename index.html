@@ -109,7 +109,85 @@
               <div class="col-12 col-md-auto py-3 order-md-last">
 
                 <span class="pe-2 text-light">Nuovo Studente</span>
-                <button class="btn btn-outline-light">&plus;</button>
+                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">&plus;</button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form>
+                      <div class="row">
+                        <div class="col-12 col-md">
+                          <label for="" class="form-label">Nome</label>
+                          <input type="text" class="form-control" aria-label="First Name">
+                        </div>
+                        <div class="col-12 col-md">
+                          <label for="" class="form-label">Cognome</label>
+                          <input type="text" class="form-control" aria-label="Last Name">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md">
+                          <span class="d-inline-block form-label">Email</span>
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="email" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                        <div class="col-12 col-md">
+                          <label for="" class="form-label">Password</label>
+                          <input type="text" class="form-control" aria-label="Password">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md">
+                          <span class="d-inline-block form-label">Indirizzo Email</span>
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="email" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                        <div class="col-12 col-md">
+                          <label for="" class="form-label">Password</label>
+                          <input type="text" class="form-control" aria-label="Password">
+                        </div>  
+                      </div>
+                      <div class="mb-3">
+                        <label for="" class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Città</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="col-md-4">
+                            <label for="inputState" class="form-label">Stato</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Scegli...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2">
+                            <label for="inputZip" class="form-label">CAP</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                      </div>
+                      <span class="d-inline-block form-label mt-2">Foto</span>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Salva</button>
+                      <button type="submit" class="btn btn-warning">Svuota</button>
+                    </form>
+                  </div>
+                </div>
 
               </div>
 
